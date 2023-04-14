@@ -139,23 +139,4 @@ command1 && command2
 command1 || command2
 ```  
 
-Тестовые **[ ]** - Эти выражения помогают нам указать результаты условного выражения. Используются обычно в блоках if 
-```bash
-# Single-line
-if [[ 1 -eq 1 ]]; then echo "true"; fi
 
-# Multi-line
-if [[ 1 -eq 1 ]]; then
-  echo "true"
-fi
-
-# Single-line
-if [[ 2 -ne 1 ]]; then echo "true"; else echo "false"; fi
-
-# Multi-line
-if [[ 2 -ne 1 ]]; then
-  echo "true"
-else
-  echo "false"
-fi
-```
